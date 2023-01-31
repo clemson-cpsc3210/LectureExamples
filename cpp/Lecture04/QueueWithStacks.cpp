@@ -1,5 +1,10 @@
 /**
  * Simulate queue data structure with two stacks.
+ * This version makes dequeue() operation expensive. 
+ * 
+ * Author: Guoxi Liu
+ * Clemson University
+ * Date: 01/26/2023
 */
 
 #include <cassert>

@@ -1,5 +1,9 @@
 /**
  * Clearable table structure using vector. 
+ * 
+ * Author: Guoxi Liu
+ * Clemson University
+ * Date: 01/26/2023
 */
 
 #include <iostream>

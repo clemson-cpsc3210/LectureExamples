@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    // Bonus question: what is the largest number n for this program get the correct factorial?
+    // Bonus question: what is the largest number n for this program to get the correct factorial?
 
     return 0;
 }
