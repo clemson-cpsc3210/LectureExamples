@@ -1,55 +1,55 @@
-***REMOVED***
+/**
  * A stack data structure support multipop operation.
  * 
  * Author: Guoxi Liu
  * Clemson University
  * Date: 01/23/2023
-***REMOVED***
+*/
 
-***REMOVED***
+#include <iostream>
 #include <vector>
 
-***REMOVED***
+/**
  * Use STL vector to implement stack structure.
-***REMOVED***
+*/
 class Stack
-***REMOVED***
-***REMOVED***
+{
+private:
     std::vector<int> st;
 
 public:
     // add an element to the top of the stack
-    void push(int num) ***REMOVED***
+    void push(int num) {
         st.push_back(num);
-***REMOVED***
+    }
 
     // remove the top element from the stack
-    void pop() ***REMOVED***
+    void pop() {
         if (!st.empty()) st.pop_back();
-***REMOVED***
+    }
 
     // remove k elements from the top of the stack 
-    void multipop(int k) ***REMOVED***
-        while (!st.empty() && k > 0) ***REMOVED***
+    void multipop(int k) {
+        while (!st.empty() && k > 0) {
             st.pop_back();
             k--;
-    ***REMOVED***
-***REMOVED***
+        }
+    }
 
-***REMOVED***
+    void print() {
         std::cout << "stack size " << st.size() << ", [ ";
-        for (size_t i = 0; i < st.size(); i++) ***REMOVED***
+        for (size_t i = 0; i < st.size(); i++) {
             std::cout << st[i] << " ";
-    ***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+        }
+        std::cout << "]" << std::endl;
+    }
+};
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+/**
+ * Main Entry of the program. 
+*/
+int main()
+{
     Stack stack;
     stack.push(4);
     stack.push(3);
@@ -63,5 +63,5 @@ public:
     stack.multipop(3);
     stack.print();
 
-***REMOVED***
-***REMOVED***
+    return 0;
+}
