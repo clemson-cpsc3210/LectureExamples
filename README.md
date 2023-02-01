@@ -1,7 +1,8 @@
 # LectureExamples
 Examples used in the lectures.  
-Tested on: :heavy_check_mark: Linux, :black_square_button: Mac OS, :black_square_button: Windows  
-[![Linux CMake Build](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/linux-cpp.yml/badge.svg)](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/linux-cpp.yml)
+Tested on: :heavy_check_mark: Linux, :heavy_check_mark: macOS, :black_square_button: Windows  
+[![Linux CMake Build](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/linux-cpp.yml/badge.svg)](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/linux-cpp.yml) 
+[![macOS CMake Build](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/mac-cpp.yml/badge.svg)](https://github.com/clemson-cpsc3210/LectureExamples/actions/workflows/mac-cpp.yml) 
 
 ## How to Run
 
