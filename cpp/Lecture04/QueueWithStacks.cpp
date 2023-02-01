@@ -76,7 +76,7 @@ void Queue::print()
 /**
  * Main entry. 
 */
-int main(int argc, char const *argv[])
+int main()
 {
     Queue q;
     q.enqueue(1); q.enqueue(3); q.enqueue(5);

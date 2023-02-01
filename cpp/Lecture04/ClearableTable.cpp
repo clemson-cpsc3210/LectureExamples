@@ -13,12 +13,12 @@ class ClearableTable
 {
 private:
     int idx;    // current index
-    int N;      // upper bounds
+    size_t N;   // upper bounds
     std::vector<int> vec;   // vector
     
 public:
-    ClearableTable(int N) {
-        this->N = N;
+    ClearableTable(size_t bound) {
+        this->N = bound;
     }
 
     void add(int e) {
@@ -44,7 +44,7 @@ public:
 /**
  * Main entry. 
 */
-int main(int argc, char const *argv[])
+int main()
 {
     ClearableTable ct(20);
     ct.add(5); ct.add(9); ct.add(13);

@@ -39,7 +39,7 @@ int compute_fibonacci_for_loop(int n)
 /**
  * Main function.
 */
-int main(int argc, char *argv[])
+int main()
 {
     int version = 1, num = 0;
     std::cout << "Select the version you want to use to compute fibonacci: " << std::endl;

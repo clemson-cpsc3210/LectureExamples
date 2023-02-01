@@ -65,9 +65,9 @@ public:
             if (set_x->element_list.size() < set_y->element_list.size())
                 std::swap(set_x, set_y);
             // merge set_y to set_x 
-            for (auto &y : set_y->element_list) {
-                y->header_ptr = set_x;
-                set_x->element_list.push_back(y);
+            for (auto &yi : set_y->element_list) {
+                yi->header_ptr = set_x;
+                set_x->element_list.push_back(yi);
             }
             
             // we will have a dangling pointer of set_y, but we will delete it in destructor 
@@ -95,7 +95,7 @@ public:
 /**
  * Main entry. 
 */
-int main(int argc, char const *argv[])
+int main()
 {
     UnionFind uf;
     // In-class exercise example. 
