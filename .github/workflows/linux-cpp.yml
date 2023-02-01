@@ -1,0 +1,26 @@
+name: Linux CMake build CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  Linux-build: 
+    name: build-linux
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v3
+
+      - name: Run CMake
+        run: |
+          mkdir build/
+          cd build/
+          cmake ../cpp/
+          cmake --build .
+
+      - name: Test 
+        run: ctest -VV
