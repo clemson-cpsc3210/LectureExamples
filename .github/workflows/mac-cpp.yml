@@ -1,4 +1,4 @@
-name: Linux CMake Build 
+name: macOS CMake Build
 
 on:
   push:
@@ -7,9 +7,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  Linux-build: 
-    name: build-linux
-    runs-on: ubuntu-latest
+  mac-build: 
+    name: build-mac
+    runs-on: macos-latest
 
     steps:
       - name: Checkout 
