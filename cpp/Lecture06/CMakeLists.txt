@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Lecture04)
+project(Lecture06)
 
 add_executable(TreeBasedUnionFind UnionFind.cpp)
 target_link_libraries(TreeBasedUnionFind PRIVATE compiler_flags)
