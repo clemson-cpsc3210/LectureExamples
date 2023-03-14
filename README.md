@@ -29,3 +29,7 @@ To run the program, just use the command `./source_file.out` or `./a.out` for a 
     - [Tree-based Union-Find algorithm](cpp/Lecture06/UnionFind.cpp)
 - [Lecture 07](cpp/Lecture07/) 
     - [Unbalanced binary search tree](cpp/Lecture07/BinarySearchTree.cpp)
+- [Lecture 12](cpp/Lecture12/) 
+    - [Task scheduling with greedy strategy](cpp/Lecture12/TaskScheduling.cpp)
+- [Lecture 14](cpp/Lecture14/) 
+    - [Count inversions in an array](cpp/Lecture14/CountInversions.cpp)
